@@ -27,8 +27,6 @@ fill (190,33,77);
 stroke (190,33,77);
 rect(200,170,600,20);
 
-
-
 //explosion by guardian
 fill(196,72,0);
 ellipse(600,500,300,400);
@@ -92,9 +90,13 @@ fill(57,66,95);
 stroke(76,79,90);
 triangle (1000,225,480,580,1040,580);
 
-
 //guardian
 
+//leg hiding behind body
+fill(137,119,84);
+stroke(108,99,81);
+strokeWeight(3);
+quad(340,620,420,620,530,670,320,660);
 
 //body
 stroke(165,60,132);
@@ -137,8 +139,6 @@ ellipse(45,338,20,20);
 fill(57,66,95);
 ellipse(215,338,20,20);
 
-
-
 //head details middle
 fill (80,67,54);
 rect(127,310,10,40);
@@ -147,7 +147,6 @@ fill(165,60,132);
 rect(120,315,8,25);
 //head details pink mrf
 rect(135,315,8,25);
-
 
 //laser circles from beam (big)
 fill(57,66,95);//mountain shade to make the circle "hollow"
@@ -169,8 +168,6 @@ strokeWeight(2);//change thickness of line
 stroke(98,222,255);
 line(200,410,550,370);
 
-
-
 //front legs using quad
 fill(137,119,84);
 stroke(108,99,81);
@@ -182,6 +179,12 @@ quad(460,650,540,660,590,800,540,800);//leg going down
 line(300,684,313,712);
 line(300,684,313,712);
 
-
-//more hidden (further from screen pov)
-quad(
+//pink swig zag
+stroke(165,60,132);
+line(131,310,131,800);
+strokeWeight(4);
+line(320,570,189,600);//line1
+line(0,585,79,600);//line2
+fill (80,67,54);//camouflage circle center of body
+ellipse(131,600,70,90);
+ellipse(131,600,30,30);
