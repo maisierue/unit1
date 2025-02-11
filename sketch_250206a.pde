@@ -176,15 +176,72 @@ quad(250,693,460,650,550,690,260,715); //leg horizontal
 quad(460,650,540,660,590,800,540,800);//leg going down
 
 //leg details
-line(300,684,313,712);
-line(300,684,313,712);
+line(300,684,313,710);
+line(300,684,313,710);
 
 //pink swig zag
 stroke(165,60,132);
-line(131,310,131,800);
+line(131,500,131,800);
 strokeWeight(4);
 line(320,570,189,600);//line1
 line(0,585,79,600);//line2
 fill (80,67,54);//camouflage circle center of body
 ellipse(131,600,70,90);
 ellipse(131,600,30,30);
+
+//pink bottom circle
+strokeWeight (2);
+ellipse(131,850,500,250);
+ellipse(131,850,300,250);
+ellipse(131,850,100,250);
+
+
+//eye
+stroke(121,115,103);
+strokeWeight(1);
+fill(85,77,61);
+ellipse(195,410,10,20);
+
+//eye pupil 
+stroke(167,59,59);
+strokeWeight(4);
+fill(191,40,40);
+ellipse(200,410,10,20);
+
+//circles detail
+stroke(121,115,103);
+strokeWeight(1);
+fill(85,77,61);
+ellipse(420,705,20,20);
+ellipse(400,710,20,20);
+ellipse(380,705,20,20);
+ellipse(360,710,20,20);
+ellipse(340,705,20,20);
+ellipse(320,710,20,20);
+ellipse(300,705,20,20);
+ellipse(280,710,20,20);
+ellipse(260,705,20,20);
+ellipse(240,710,20,20);
+ellipse(220,705,20,20);
+ellipse(200,710,20,20);
+ellipse(180,705,20,20);
+ellipse(160,710,20,20);
+ellipse(140,705,20,20);
+ellipse(120,710,20,20);
+ellipse(100,705,20,20);
+ellipse(80,710,20,20);
+ellipse(60,705,20,20);
+ellipse(40,710,20,20);
+ellipse(20,705,20,20);
+ellipse(0,710,20,20);
+
+//front legs using quad
+fill(137,119,84);
+stroke(108,99,81);
+strokeWeight(3);
+quad(250,693,460,650,550,690,260,715); //leg horizontal
+quad(460,650,540,660,590,800,540,800);//leg going down
+
+//leg details
+line(300,684,313,710);
+line(300,684,313,710);
